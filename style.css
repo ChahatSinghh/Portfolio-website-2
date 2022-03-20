@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+        margin:0;
+        background-image: url('images/bg.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size:cover;
+        background-position: center;
+        backdrop-filter: blur(5px);
+        height: 100%;
+        width: 100%;
+}
+
+ .main{
+         height:100%;
+         width: 100%;
+ }
+
+ .maintextheading{
+        padding-top: 200px;
+         text-align: center;
+ }
+ .hii{
+        color: white;
+        /*font-family: NotoSansKR-Bold;*/
+        font-family: 'Press Start 2P', cursive;
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+}
+ .hiitext{
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        margin-top:3px;
+        font-weight: bold;
+        padding-left: 10px;
+        padding-right: 10px;
+
+ }
+ 
+ .mainbody{
+         color: rgb(255, 255, 255);
+         font-family: 'Rubik', sans-serif;
+         padding-top: 270px;
+         font-style: normal;
+         padding-left:60px ;
+         padding-right: 60px;
+ }
+ .aboutme{
+        text-align: left;}
+
+.intro{
+        font-size: 20px;
+}
+
+hr{
+        border:none;
+        height: 2.5px;
+        background-color: rgb(255, 255, 255);
+}
+.socialmedia1{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid white;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+}
+.socialmedia1:hover{
+        opacity: 0.5;
+}
+
+ol{
+        list-style-type: square;
+}
+
+
+.spaceshipallien{
+        /*height: 100px;
+        width: 100px;
+        position: relative;*/
+        
+        animation: move linear 4s infinite;
+}
+.gamebg{
+        height: auto;
+        width: 100%;      
+}
+
+@keyframes move{
+        0%{
+                transform: translateY(13px);
+        }
+        50%{
+                transform: translateY(-13px);
+        }
+        100%{
+                transform: translateY(13px);
+        }
+}
+
+
